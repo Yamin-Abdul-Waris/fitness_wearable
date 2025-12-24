@@ -1,0 +1,1 @@
+This is the code for the fitness wearable with edge ai for activity classification (walk/run/jog) and heart rate display using esp32. The edge-AI model is in the zip file and the code for training it is also included. We used EDGE IMPULSE to train this model
