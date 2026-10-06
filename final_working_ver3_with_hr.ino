@@ -316,8 +316,8 @@ void loop() {
 if (ready) {
   if (!aboveThreshold &&
       filteredAccel > stepHigh &&
-      (now - lastStepTime > minStepInterval) &&      // ⏱ human timing
-      (now - lastMotionTime < 400)) {                // 🧠 recent motion
+      (now - lastStepTime > minStepInterval) &&    
+      (now - lastMotionTime < 400)) {                
 
     stepCount++;
     lastStepTime = now;
